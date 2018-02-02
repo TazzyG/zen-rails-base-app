@@ -60,6 +60,9 @@ gem 'select2-rails'
 # Get e-mail notifications when exceptions happen in the production environment
 gem 'exception_notification'
 
+# Laurie's added gems
+gem 'dotenv-rails'
+
 group :test do
   gem 'database_cleaner'
 end
@@ -73,7 +76,7 @@ group :development, :test do
   gem 'capybara', '~> 2.15', '>= 2.15.1'
   gem 'capybara-email'
   gem 'capybara-screenshot'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'spring-commands-rspec'
